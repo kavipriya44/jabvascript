@@ -46,6 +46,7 @@ async function getweatherinfo(cityy)
         weather:[{description,id}]}=data;
         main.textContent="";
         main.style.display="flex";
+        // ,xmzflgserm
 
 
     const cityname=document.createElement("h1");
