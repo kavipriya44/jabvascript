@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+}
+input{
+    font-size: larger;
+    font-weight: bold;
+  
+  }
+  button{
+    margin-left: 10px;
+      background-color: rgb(153, 213, 139);
+      font-size: 22px;
+      color: white;
+      border: none;
+      
+  }
+.cityy
+  {
+    font-size: 50px;
+    font-weight: bold;
+  }
+.temperature
+{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.humidity,.description
+{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.emoji
+{
+    font-size: 70px;
+}
+.error{
+  font-size: larger;
+  font-weight: bold;
+}
+.main
+{
+    
+    background: linear-gradient(180deg,rgb(229, 138, 111),rgba(229, 218, 5, 0.653));
+   
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    min-height: 40px;
+    min-width: 400px;
+    max-height: 800px;
+
+}

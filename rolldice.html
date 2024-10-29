@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice roll</title>
+    <STYLE>
+        h1
+        {
+            font-size:40px;
+        }
+        label
+        {
+          font-weight: bold;
+          font-size: 25px;
+        }
+        input
+        {
+
+            font-weight: bold;
+            height: 20px;
+            width: 70px;
+            border: 2px solid  black;
+             
+        }
+        button
+        
+        {
+            padding: 2px;
+            height: 30px;
+            width: 80px;
+            font-weight: bold;
+            background-color: orange;
+        }
+        form
+        {
+            text-align: center;
+            background-color: grey;
+            height: 120px;
+            width: 400px;
+            margin: auto;
+        }
+        #diceresult
+        {
+             margin: 10px;
+        }
+        #diceimage img
+        {
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+        }
+    </STYLE>
+</head>
+<body>
+    <div action="">
+   <h1>Dice Roller</h1> 
+   <label for=""># of dice:</label>
+   <input type="number" value="1" min="1" max="6" id="rollnumber">
+   <button type="submit" onclick="rolldice()">Roll Dice</button>
+   </div>
+   <div id="diceresult"></div>
+   <div id="diceimage"></div>
+   <script src="rolldice.js"></script>
+</body>
+</html>

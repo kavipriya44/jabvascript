@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+  
+        <input type="text" list="names" id="pokimonname" placeholder="pokemon name">
+        <datalist id="names">
+             <option >bulbasaur</option>
+             <option >ivysaur</option>
+             <option>venusaur</option>
+             <option >charmander</option>
+             <option >charmeleon</option>
+             <option >charizard</option>
+             <option >squirtle</option>
+             <option >wartortle</option>
+             <option >blastoise</option>
+        </datalist>
+        <button onclick="fetchdata()">fetchpokimon</button>
+        <br><br>
+        <img src="" id="pokimonimage"alt="pokimon" style="display: none;">
+    <script src="fetch.js"></script>
+</body>
+</html>

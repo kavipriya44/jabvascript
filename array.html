@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+          let fruits=["mango","watermelon"];
+        //   console.log(fruits[1]);
+        fruits.push("apple");
+        // fruits.pop();
+        fruits.unshift("guva");
+        // fruits.shift();
+       
+        // console.log(fruits.indexOf("mango"));
+        // console.log(fruits.length);
+        // console.log(fruits.sort());
+        // console.log(fruits.sort().reverse());
+        let fruit=[...fruits]
+        console.log(...fruit);
+        let num=[1,2,3,4,5];
+        console.log(Math.max(...num));
+        console.log(Math.min(...num));
+        console.log(Math.min(num));
+        let f1="aaaa";
+        let f2="bbbb";
+        let f3="cccc";
+          // rest parameters 
+          function add(...adds)
+          {
+            console.log(adds);
+          }
+          add(f1,f2,f3);
+          // combining two arrays 
+          let combine=[...num, ...fruit];
+          console.log(combine);
+    </script>
+</body>
+</html>

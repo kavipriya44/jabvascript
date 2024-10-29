@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Timer</title>
+    <style>
+        body{
+            background-image: url("clock.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .clock
+        {
+            
+            text-align: center;
+            width: 100vw;
+            font-weight: bold;
+            font-size: 60px;
+            backdrop-filter: blur(10px);
+        }
+
+    </style>
+</head>
+<body>
+    <DIV class="container">
+        <div class="clock" id="run">00:00:00</div>
+    </DIV>
+    <script src="clock.js"></script>
+</body>
+</html>

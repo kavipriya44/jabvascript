@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ToDo Application</title>
+    <link rel="stylesheet" href="todo.css">
+  </head>
+  <body>
+    <div class="main">
+        <h1>ToDo Application in JavaScript</h1>
+        <hr>
+        <label>Enter Task</label>
+        <input type="text" id="taskInput" placeholder="Enter your Task">
+        
+        <div class="button">
+          <button type="button" class="add" onclick="addTask()">Add Task</button>
+          <button type="button" class="clear" onclick="clearTasks()">Clear All Tasks</button>
+        </div>
+
+        <table id="taskTable">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Task</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="taskList"></tbody>
+        </table>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>

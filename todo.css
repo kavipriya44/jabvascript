@@ -1,0 +1,44 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+table {
+    width: 70%;
+    
+}
+
+table,th,tr, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+button {
+    padding: 5px 10px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    background-color: #45a049;
+}
+.button
+{
+     border: none;
+     padding: 10px 0px 10px 0px;
+}
+
+.add
+{
+    background-color: rgb(17, 17, 185);
+   
+}
+.clear
+{
+  background-color: red;
+ 
+}
